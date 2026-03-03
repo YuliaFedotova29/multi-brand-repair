@@ -161,24 +161,23 @@ body {
 
     .brands__swiper-wrap {
         display: block;
-        padding: 16px 16px 0 16px;
-        position: relative;
+        padding: 16px 6px 0 16px;
     }
 
     .brands__swiper-wrap::after {
         content: '';
         position: absolute;
-        top: 0;
+        top: 87px;
         right: 0;
-        width: 40px;
-        height: calc(100% - 28px);
+        width: 24px;
+        height: 81px;
         background: linear-gradient(to right, transparent, #f8f8f8);
+        box-shadow: inset -12px 0 4px -4px #f8f8f8;
         pointer-events: none;
         z-index: 10;
     }
 
     .brands__swiper-wrap .swiper {
-        overflow: visible;
         padding-bottom: 35px; 
     }
 
